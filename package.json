@@ -1,0 +1,17 @@
+{
+  "name": "notify-send-http-server",
+  "version": "1.0.0",
+  "description": "HTTP interface to notify-send.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "notify-send"
+  ],
+  "author": "Chi-teck",
+  "license": "ISC",
+  "dependencies": {
+    "optimist": "^0.6.1"
+  }
+}
