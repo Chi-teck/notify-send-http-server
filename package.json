@@ -1,6 +1,6 @@
 {
   "name": "notify-send-http-server",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "HTTP interface to notify-send.",
   "bin": "bin/start.js",
   "keywords": [
