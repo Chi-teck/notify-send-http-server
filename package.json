@@ -2,12 +2,15 @@
   "name": "notify-send-http-server",
   "version": "1.0.2",
   "description": "HTTP interface to notify-send.",
-  "bin": "bin/start",
+  "bin": "bin/start.js",
   "keywords": [
     "notify-send"
   ],
   "author": "Chi-teck",
-  "repository": "Chi-teck/notify-send-http-server",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Chi-teck/notify-send-http-server"
+  },
   "license": "MIT",
   "dependencies": {
     "optimist": "^0.6.1"

@@ -31,8 +31,14 @@ var server = http.createServer(function (request, response) {
 
 });
 
-server.listen(opts.p || 1337, opts.h || 'localhost');
+var port = opts.p || 1337;
+var host = opts.h || 'localhost';
+
+server.listen(port, host, function () {
+  console.log('Listening on http://%s:%s', host, port);
+});
 
 server.on('error', function (error) {
   console.error('Error:', error.code);
 });
+
